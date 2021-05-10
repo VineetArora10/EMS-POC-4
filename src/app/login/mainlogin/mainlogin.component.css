@@ -1,0 +1,20 @@
+body {
+    background-image: linear-gradient(300deg, rgb(88, 181, 235), #fff);
+}
+
+h1 {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    padding: 25px;
+}
+
+button {
+    margin: 20px;
+}

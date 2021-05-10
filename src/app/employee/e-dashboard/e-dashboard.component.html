@@ -1,0 +1,19 @@
+<body>
+    <h1>Employee Dashboard</h1>
+    <div class="container">
+        <table class="table">
+            <tr>
+                <th>Employee Name</th>
+                <th>Employee ID</th>
+                <th>Employee Department</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td>{{ename}}</td>
+                <td>{{eid}}</td>
+                <td>{{edept}}</td>
+                <td><button  (click)="edit()" class="btn btn-primary">Edit</button></td>
+            </tr>
+        </table>
+    </div>
+</body>
